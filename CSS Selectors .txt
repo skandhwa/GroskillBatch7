@@ -1,0 +1,101 @@
+CSS Selectors 
+------------------------
+
+We can identify web elements based on their HTML structures ,
+it is one of the quickest way to identify web elements 
+
+Syntax 
+
+node[attribute_name='value']
+
+
+<input type="fname" class="fname form-control " id="fname" name="fname" placeholder="first name" required="" fdprocessedid="oapkg">
+
+<textarea type="text" class="Present-Address form-control" id="Present-Address" placeholder="Present Address" name="Present-Address" required=""></textarea>
+
+
+input[id='fname']
+
+input#fname
+
+input.fname
+
+textarea.Present-Address
+
+textarea#Present-Address
+
+
+Ways of locating element through CSS selector 
+
+ID
+class 
+Attribute
+Sub String
+Combining attribute
+
+
+input[id$='ame']
+
+<input type="fname" class="fname form-control " id="fname" name="fname" placeholder="first name" required="" fdprocessedid="oapkg">
+
+
+input[id^='fn']
+
+<input type="password" class="password form-control " id="password" name="password" placeholder="Password" required="" fdprocessedid="hwc97">
+
+
+
+
+
+input[id^='pas']
+
+
+<textarea type="text" class="Permanent-Address form-control" id="Permanent-Address" name="Permanent-Address" placeholder="Permanent Address" required=""></textarea>
+
+
+textarea[id^='Perm']///prefix operation
+
+
+textarea[id$='ress']///postfix operation
+
+textarea[id*='nent']//to locate element anywhere from the attribute, matching string
+
+
+<div class="form-group col-md-6">
+          <textarea type="text" class="Present-Address form-control" id="Present-Address" placeholder="Present Address" name="Present-Address" required=""></textarea>
+        </div>
+
+
+div>textarea[id='Present-Address'] 
+
+section>a[name='comments']
+
+
+
+textarea.Present-Address form-control[ placeholder='Present Address']
+
+<input type="fname" class="fname form-control " id="fname" name="fname" placeholder="first name" required="" fdprocessedid="oapkg">
+
+
+input.fname form-control [placeholder='first name']
+
+
+1> Xpath are slower than CSS selector because Xpath uses XML library for parsing whereas CSS selector uses HTML library
+
+2>CSS selector do not provide any indexing whereas XPath provides you an option of indexing
+
+3>We don't have many functions and operators in CSS selector whereas Xpath has many ie contains,starts with ,and ,OR,text
+
+4>CSS selector provides locating element through substring anywhere in the element which Xpath does not provides
+
+5>Xpath has multiple options to locate element when you are using parent child relationship which css selector does not have 
+
+
+
+
+
+
+
+
+
+
