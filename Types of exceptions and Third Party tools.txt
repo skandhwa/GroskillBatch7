@@ -1,0 +1,131 @@
+Types of exceptions
+
+
+1>No Such Element Found Exception
+When u have given in correct xpath 
+or the element is present on  to a very bottom of page 
+
+Resolve
+Correct ur xpath
+use JSE in order to move to bottom of page 
+
+
+2>Element not displayed/Element not visible 
+
+When element is not displayed or not visible 
+
+Resolve
+before clicking first check isDisplayed and isEnabled
+
+3>Stale Element Exception 
+
+Resolve
+
+a>Refresh a web page multiple times
+b> Put an explicit wait 
+c> try catch block 
+
+
+try
+{
+
+}
+
+catch(StaleElementException e)
+{
+
+
+}
+
+
+4>Element Not interactable exception 
+5>Illegal Argument exception 
+
+
+System.setproperty("","")
+6>socket exception 
+
+
+Robot Class and Third Party tools in Selenium 
+---------------------------------------------------------------------------
+
+1>AutoIT
+Handling Mouse and keyboard events
+Resizing the window
+Uploading or Downloading a file
+Convert the Automation script to .exe file with the help of auto it
+Have a record and run feature with help of auto it 
+
+
+
+
+
+2>Sikuli
+To automate flash objects we will use sikuli
+To automate pie charts , graphs, images 
+To automate desktop application
+
+I provides a very simple API with the help of which we create an object of screen class and will handle
+thedynamic images
+
+
+
+
+
+
+3>Tess4j
+
+
+
+mngr647967
+
+sUgYzub
+
+
+java is a programming language
+
+a is java language programming
+
+
+java java program is java 
+
+
+1 4 7 3 4 6
+
+
+https://www.flipkart.com/search?q=footwear+for+women&sid=osp%2Ciko&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&as-pos=1&as-type=RECENT&suggestionId=footwear+for+women%7CWomen%27s+Footwear&requestId=b9c2167f-6ab1-4364-9479-bd4e34e5d10e&as-searchtext=foo
+
+
+
+https://reqres.in/api/users?page=2
+
+
+ftp://
+
+
+String str1 ="ABC"
+
+String str2= "DEF"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
